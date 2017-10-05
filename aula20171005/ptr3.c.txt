@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	int vetor[] = {0x0F,0xFF,0xFFFF,0xFFFFFF,0x80000001,0xFFFFFFFF};
+	unsigned char *x;
+	int nbytes = sizeof(vetor); 
+	int i, contagem = 0;
+	printf ("End. inicial de vetor: %p\n, vetor");
+	x = (unsigned char *) vetor;
+	for (i=0; i < nbytes; i++)
+	{
+		if (*(x+i) != 0)
+			contagem++;
+		printf ("End.: %p, dado: %d, %X\n", x+i, x[i], *(x+i));
+	}
+	printf("De %d bytes, %d estao com um bit igual a 1.\n", nbytes, contagem);
+	return 0;
+}
