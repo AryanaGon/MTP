@@ -16,4 +16,4 @@ int main() {
 	destruirMatriz(A);
 	destruirMatriz(Ac);
 	return EXIT_SUCCESS;
-	}
+}

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 
 int quociente(int num1, int num2)
 {
@@ -33,7 +32,6 @@ int main()
 	int num1, num2;
 	printf("Digite dois numeros ");
 	scanf("%d %d", &num1, &num2);
-	printf("O quociente da divis„o: %d \n", quociente(num1, num2));
-	printf("O resto da divis„o: %d \n", resto(num1, num2));
-	system ("pause");
+	printf("O quociente da divis√£o: %d \n", quociente(num1, num2));
+	printf("O resto da divis√£o: %d \n", resto(num1, num2));
 }

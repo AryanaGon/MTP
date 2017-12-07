@@ -21,8 +21,8 @@ int main() {
 		 destruirMatriz(M);
 	}
 	else
-	printf(" n„o È possÌvel\n");
+	printf(" n√£o √© poss√≠vel\n");
 	destruirMatriz(A1);
 	destruirMatriz(A2);
 	return EXIT_SUCCESS;
-	}
+}

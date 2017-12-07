@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void)
+
+int main()
 {
 int x, y, z;
 printf("x: ");
@@ -9,5 +10,12 @@ printf("y: ");
 scanf("%d", &y);
 z = x + y;
 printf("x + y = %d\n", z);
+z = x - y;
+printf("x - y = %d\n", z);
+z = x*y;
+printf("x * y = %d\n", z);
+z = x/y;
+printf("x / y = %d\n", z);
+
 return 0;
 }

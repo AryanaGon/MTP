@@ -12,6 +12,6 @@ float main()
 	cimg= -img;
 	multr= (r*cr-img*cimg);
 	multi= (r*cimg+img*cr);
-	printf("Multiplicação por seu conjugado = %.1lf + %.1lf*I\n", multr, multi);
+	printf("MultiplicaÃ§Ã£o por seu conjugado = %.1lf + %.1lf*I\n", multr, multi);
 	return 0;
 }

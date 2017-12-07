@@ -39,7 +39,7 @@ int main()
 		if(possibilidades > 0)
 			printf("Sao %d possbilidades.", possibilidades);
 		else
-			printf("Não e primo nem expresso por soma de primos.\n");
+			printf("NÃ£o e primo nem expresso por soma de primos.\n");
 	}
     return EXIT_SUCCESS;
 }

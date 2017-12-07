@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+#include <stdio.h>
 #include <math.h>
 
 int delta(float a, float b, float c) 

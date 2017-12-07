@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int mesmos(int A[16], int B[11])
@@ -23,4 +23,3 @@ int main()
 	int m = sizeof(B)/sizeof(int);
 	mesmos(A,B);
 }
-

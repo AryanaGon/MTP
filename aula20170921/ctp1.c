@@ -1,6 +1,5 @@
 #include <ctype.h>
 #include <stdio.h>
-#include <iostream>
 
 char main ()
 {

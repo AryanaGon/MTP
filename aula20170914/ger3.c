@@ -1,5 +1,4 @@
 #include <time.h>
-#include <iostream>
 #include <stdio.h>
 int main()
 {
@@ -29,7 +28,6 @@ else
 i++;
 system ("pause");
 }while(i<3);
-printf("\nPontuação final: %d\n", p);
-system ("pause");
+printf("\nPontuaÃ§Ã£o final: %d\n", p);
 return 0;
 }

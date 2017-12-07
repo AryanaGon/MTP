@@ -28,3 +28,4 @@ int main()
 			printf("%c", str1[i]);
 	}
 	return 0; 
+}

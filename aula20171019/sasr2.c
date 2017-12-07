@@ -18,10 +18,10 @@ int impar()
 }
 int main ()
 {
-	int opção;
+	int opÃ§Ã£o;
 	printf("Digite 1 para ver os numeros impares ou 2 para os pares:  ");
-	scanf("%d", &opção);
-	 switch(opção)
+	scanf("%d", &opÃ§Ã£o);
+	 switch(opÃ§Ã£o)
 	 {
 	case 1: impar(); break;
 	case 2: par(); break;

@@ -27,5 +27,4 @@ int main()
 	else
 		printf("\nVoce quis dizer: %s ?", str1);
 	}		
-	return 0; 
-}
+	return 

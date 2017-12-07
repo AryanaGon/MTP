@@ -3,7 +3,7 @@
 #include "matriz.h"
 
 int main() {
-	Matriz A, Ai;
+	Matriz A;
 	int nlin, ncol;
 	printf("Entre com o numero da ordem da matriz: ");
 	scanf("%d", &nlin); 
@@ -11,13 +11,7 @@ int main() {
 	A = criarMatriz(nlin, ncol);
 	preencherMatriz(A);
 	imprimirMatriz(A);
-	if(determinante(A)==0)
-		printf("não é inversivel");
-	else{
-		Ai = inversa(A);
-		imprimirMatriz(Ai);
-		destruirMatriz(Ai);
-	}
+	printf("det= %lf \n",determinante(A));
 	destruirMatriz(A);
 	return EXIT_SUCCESS;
-	}
+}
